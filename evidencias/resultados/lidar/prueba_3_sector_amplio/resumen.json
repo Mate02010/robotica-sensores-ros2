@@ -1,0 +1,29 @@
+{
+  "nombre_ensayo": "prueba 3 sector amplio",
+  "nombre_carpeta": "prueba_3_sector_amplio",
+  "inicio_bogota": "2026-11-13T13:15:29.956049-05:00",
+  "duracion_s": 20.005079411999986,
+  "interrumpido": false,
+  "rosbag_exit_code": 0,
+  "datos": {
+    "/scan": {
+      "barridos": 134,
+      "puntos": 48240,
+      "validos": 24561,
+      "min_m": 0.1264999955892563,
+      "max_m": 14.30049991607666,
+      "hz_recibidos": 6.684663591778645,
+      "porcentaje_valido": 50.91417910447761
+    },
+    "/scan_filtrado": {
+      "barridos": 133,
+      "puntos": 23940,
+      "validos": 5985,
+      "min_m": 0.22300000488758087,
+      "max_m": 5.984250068664551,
+      "hz_recibidos": 6.684469951935206,
+      "porcentaje_valido": 25.0
+    }
+  },
+  "nota": "CSV y rosbag son suscriptores independientes; sus limites temporales pueden diferir."
+}

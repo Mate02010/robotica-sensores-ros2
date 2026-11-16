@@ -13,12 +13,12 @@ Los controladores externos utilizados son [sllidar_ros2 de SLAMTEC](https://gith
 
 ## Espacio para evidencias
 
-Las carpetas permiten organizar los archivos de la práctica. Ya está publicado el video físico del RPLIDAR; las demás evidencias se podrán añadir posteriormente. El informe y la colección de Daniel se conservan fuera del repositorio.
+Ya están publicados el video físico del RPLIDAR, cinco imágenes originales y los resultados reales de dos ensayos LiDAR. Las evidencias de PrimeSense se podrán incorporar posteriormente. El informe y la colección de Daniel se conservan fuera del repositorio.
 
 - [Videos](evidencias/videos/): grabaciones de RViz y pruebas de los sensores.
 - [Capturas](evidencias/capturas/): terminal, parámetros y visualización.
-- [Resultados](evidencias/resultados/): parámetros y datos registrados en ensayos.
-- [Índice de evidencias](evidencias/README.md): espacio para los enlaces de prueba.
+- [Resultados LiDAR](evidencias/resultados/lidar/): resúmenes, barridos CSV y parámetros reales de los dos ensayos.
+- [Índice de evidencias](evidencias/README.md): enlaces a cada captura y resultado publicado.
 
 ## Video de la prueba física del RPLIDAR
 

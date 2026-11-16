@@ -1,5 +1,5 @@
 {
-  "alcance": "Código de los dos sensores, estructura para evidencias y video físico del RPLIDAR aportado por el usuario",
+  "alcance": "Código de ambos sensores, video físico, capturas originales y resúmenes/CSV de barridos de los ensayos LiDAR",
   "python_sintaxis": "aprobada",
   "archivos": [
     {
@@ -71,16 +71,88 @@
       "sha256": "79c72f993aa3a0692132fbefe47d7eedcfbbb1693785b77984edd506c6682b8f"
     },
     {
+      "ruta": "evidencias/capturas/lidar/03_RPLIDAR_conexion_fisica.png",
+      "sha256": "d600efe97c467561041f03ac3f3f16297da0973650d4914efea7a13b304d8b7f"
+    },
+    {
+      "ruta": "evidencias/capturas/lidar/05_RPLIDAR_mediciones_iniciales.png",
+      "sha256": "58b899499477a9b5e14b69b86b3943cfd9b8267729636c9b2000f1c564474f7b"
+    },
+    {
+      "ruta": "evidencias/capturas/lidar/07_RPLIDAR_servicios_parada_arranque.png",
+      "sha256": "bd843610a1cb83c32db6ca5b9973259ce0ecde02d6518fd8760f1c1ac3143bfa"
+    },
+    {
+      "ruta": "evidencias/capturas/lidar/11_RPLIDAR_prueba_3_parametros_datos.png",
+      "sha256": "f9b6a874aef4d7ce25d2642c3c46031a998a939622e52d59c9cec0d85eb62ad8"
+    },
+    {
+      "ruta": "evidencias/capturas/lidar/13_RPLIDAR_RViz.png",
+      "sha256": "b56f0abb489a2afb106489677a3b46218ee3eb882036cf0900709f78ee5f0d02"
+    },
+    {
       "ruta": "evidencias/capturas/README.md",
-      "sha256": "7f50dc477b11e5781e7ade8de0d0e1d00fb298dcb73598630a069ac2aba0ba5a"
+      "sha256": "22e69b4ed595b1b3d8175ba1f0e14e8ac73836c0246bd3d1e41fdc816e6732cf"
     },
     {
       "ruta": "evidencias/README.md",
-      "sha256": "017e0511c94f5aeff54e5093171ef7436dad71aa25e2eff3dbb535d2a6bceb44"
+      "sha256": "8d7c23bc1b1a81a25e8f1343f018c24fc88ac1c18d38e6f6f709966b72a5e48f"
     },
     {
-      "ruta": "evidencias/resultados/README.md",
-      "sha256": "241b29397af0d57e3caba699555e91770655968958537d54bd8de58ea0c13502"
+      "ruta": "evidencias/resultados/lidar/prueba_2/barridos.csv",
+      "sha256": "3f4538ad369a7b1372bd080528670da77dca868dd48d8e161edcb42b36f90cc5"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_2/filtro_lidar_final.yaml",
+      "sha256": "28b31efd8d1546a2b74f2cc3b5524d853a6653ed61fbf1634a89137b1306c3ae"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_2/filtro_lidar_inicio.yaml",
+      "sha256": "28b31efd8d1546a2b74f2cc3b5524d853a6653ed61fbf1634a89137b1306c3ae"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_2/resumen.json",
+      "sha256": "bf36ff39c9d5b6feeac7c981ff801cacd31f2fa07300b20cb1a14e2960f254b7"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_2/rosbag_info.txt",
+      "sha256": "2e8b823f5ed1690094a6e3d8745cbef25971cd17300b7665129da2ebf828821a"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_2/sllidar_node_final.yaml",
+      "sha256": "940a20215e81a1e34c7957ad9373039cb674716495974f0f5c7f172d3b34cccf"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_2/sllidar_node_inicio.yaml",
+      "sha256": "940a20215e81a1e34c7957ad9373039cb674716495974f0f5c7f172d3b34cccf"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/barridos.csv",
+      "sha256": "74f38a4fdb40d64e6e3ac91d7c8dfa36eee4d40d53262d3024b18ded54b3ba26"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/filtro_lidar_final.yaml",
+      "sha256": "c48b655313b943a937ba2c97340beebbd558da851a33dd36edaedfee00f78749"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/filtro_lidar_inicio.yaml",
+      "sha256": "c48b655313b943a937ba2c97340beebbd558da851a33dd36edaedfee00f78749"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/resumen.json",
+      "sha256": "31ba6253b8b3a0d9c741c7e45d4c92cf1164002674f85fe83e5bd5adb5a6b4df"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/rosbag_info.txt",
+      "sha256": "fc601f7af546d871078c806e37eee488e262c4e359a388990660731337ab5480"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/sllidar_node_final.yaml",
+      "sha256": "940a20215e81a1e34c7957ad9373039cb674716495974f0f5c7f172d3b34cccf"
+    },
+    {
+      "ruta": "evidencias/resultados/lidar/prueba_3_sector_amplio/sllidar_node_inicio.yaml",
+      "sha256": "940a20215e81a1e34c7957ad9373039cb674716495974f0f5c7f172d3b34cccf"
     },
     {
       "ruta": "evidencias/videos/README.md",
@@ -164,7 +236,7 @@
     },
     {
       "ruta": "README.md",
-      "sha256": "abdc969f2fde9b281b84078754be3341a94be536694c65af2773cbefd4933f52"
+      "sha256": "45acbc50ac69276e62c724de7aca6228222a0cab5c526e682d35a93f05118a28"
     }
   ]
 }

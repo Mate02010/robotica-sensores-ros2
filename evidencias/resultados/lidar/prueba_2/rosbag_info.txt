@@ -1,0 +1,16 @@
+
+Files:             rosbag_0.db3
+Bag size:          548.1 KiB
+Storage id:        sqlite3
+ROS Distro:        kilted
+Duration:          18.731003450s
+Start:             Nov 13 2026 13:13:44.337857042 (1794593624.337857042)
+End:               Nov 13 2026 13:14:03.068860492 (1794593643.068860492)
+Messages:          251
+Topic information: Topic: /parameter_events | Type: rcl_interfaces/msg/ParameterEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /scan | Type: sensor_msgs/msg/LaserScan | Count: 125 | Serialization Format: cdr
+                   Topic: /scan_filtrado | Type: sensor_msgs/msg/LaserScan | Count: 126 | Serialization Format: cdr
+Services:          0
+Service information: 
+Actions:           0
+Action information: 

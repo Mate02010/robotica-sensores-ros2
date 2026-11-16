@@ -1,0 +1,29 @@
+{
+  "nombre_ensayo": "prueba 2",
+  "nombre_carpeta": "prueba_2",
+  "inicio_bogota": "2026-11-13T13:13:36.663306-05:00",
+  "duracion_s": 20.064385234999918,
+  "interrumpido": false,
+  "rosbag_exit_code": 0,
+  "datos": {
+    "/scan": {
+      "barridos": 134,
+      "puntos": 48240,
+      "validos": 24217,
+      "min_m": 0.1264999955892563,
+      "max_m": 9.00100040435791,
+      "hz_recibidos": 6.668725746886392,
+      "porcentaje_valido": 50.20107794361526
+    },
+    "/scan_filtrado": {
+      "barridos": 134,
+      "puntos": 4824,
+      "validos": 0,
+      "min_m": null,
+      "max_m": null,
+      "hz_recibidos": 6.668344590294747,
+      "porcentaje_valido": 0.0
+    }
+  },
+  "nota": "CSV y rosbag son suscriptores independientes; sus limites temporales pueden diferir."
+}

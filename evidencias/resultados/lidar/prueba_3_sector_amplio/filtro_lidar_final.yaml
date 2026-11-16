@@ -1,0 +1,10 @@
+/filtro_lidar:
+  ros__parameters:
+    angulo_fin_deg: 90.0
+    angulo_inicio_deg: -90.0
+    distancia_max_m: 6.0
+    distancia_min_m: 0.1
+    salto_puntos: 2
+    start_type_description_service: true
+    use_sim_time: false
+
