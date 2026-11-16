@@ -1,0 +1,8 @@
+filtro_profundidad:
+  ros__parameters:
+    distancia_min_m: 1.0
+    distancia_max_m: 4.0
+    izquierda_pct: 1.0
+    derecha_pct: 90.0
+    arriba_pct: 1.0
+    abajo_pct: 30.0

@@ -1,0 +1,13 @@
+/scan:
+  reliability: best_effort
+  history: keep_last
+  depth: 100
+/scan_filtrado:
+  reliability: best_effort
+  history: keep_last
+  depth: 100
+/tf_static:
+  reliability: reliable
+  durability: transient_local
+  history: keep_last
+  depth: 100

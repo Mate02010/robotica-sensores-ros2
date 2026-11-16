@@ -1,0 +1,56 @@
+diff --git a/src/sllidar_node.cpp b/src/sllidar_node.cpp
+index 5abfd0f..3d54531 100644
+--- a/src/sllidar_node.cpp
++++ b/src/sllidar_node.cpp
+@@ -74,6 +74,7 @@ class SLlidarNode : public rclcpp::Node
+         this->declare_parameter<std::string>("serial_port", "/dev/ttyUSB0");
+         this->declare_parameter<int>("serial_baudrate",1000000);
+         this->declare_parameter<std::string>("frame_id","laser_frame");
++        this->declare_parameter<bool>("legacy_standard", false);
+         this->declare_parameter<bool>("inverted", false);
+         this->declare_parameter<bool>("angle_compensate", false);
+         this->declare_parameter<std::string>("scan_mode",std::string());
+@@ -87,6 +88,7 @@ class SLlidarNode : public rclcpp::Node
+         this->get_parameter_or<std::string>("serial_port", serial_port, "/dev/ttyUSB0"); 
+         this->get_parameter_or<int>("serial_baudrate", serial_baudrate, 1000000/*256000*/);//ros run for A1 A2, change to 256000 if A3
+         this->get_parameter_or<std::string>("frame_id", frame_id, "laser_frame");
++        this->get_parameter_or<bool>("legacy_standard", legacy_standard, false);
+         this->get_parameter_or<bool>("inverted", inverted, false);
+         this->get_parameter_or<bool>("angle_compensate", angle_compensate, false);
+         this->get_parameter_or<std::string>("scan_mode", scan_mode, std::string());
+@@ -119,6 +121,7 @@ class SLlidarNode : public rclcpp::Node
+         RCLCPP_INFO(this->get_logger(),"SLLidar S/N: %s",sn_str);
+         RCLCPP_INFO(this->get_logger(),"Firmware Ver: %d.%02d",devinfo.firmware_version>>8, devinfo.firmware_version & 0xFF);
+         RCLCPP_INFO(this->get_logger(),"Hardware Rev: %d",(int)devinfo.hardware_version);
++        RCLCPP_INFO(this->get_logger(),"Model code: %d", (int)devinfo.model);
+         return true;
+     }
+ 
+@@ -181,7 +184,7 @@ class SLlidarNode : public rclcpp::Node
+                 return false;
+             }
+         
+-            ans=drv->startScan(0,1);
++            ans=drv->startScan(false, !legacy_standard);
+             if (SL_IS_FAIL(ans)) {
+                 RCLCPP_WARN(this->get_logger(), "Failed to start scan: %08x", ans);
+             }
+@@ -308,7 +311,9 @@ public:
+         drv->setMotorSpeed();
+ 
+         LidarScanMode current_scan_mode;
+-        if (scan_mode.empty()) {
++        if (legacy_standard) {
++            op_result = drv->startScan(false, false, 0, &current_scan_mode);
++        } else if (scan_mode.empty()) {
+             op_result = drv->startScan(false /* not force scan */, true /* use typical scan mode */, 0, &current_scan_mode);
+         } else {
+             std::vector<LidarScanMode> allSupportedScanModes;
+@@ -454,6 +459,7 @@ public:
+     int udp_port = 8089;
+     int serial_baudrate = 115200;
+     std::string frame_id;
++    bool legacy_standard = false;
+     bool inverted = false;
+     bool angle_compensate = true;
+     float max_distance = 8.0;

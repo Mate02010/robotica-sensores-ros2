@@ -1,0 +1,162 @@
+{
+  "alcance": "Solo código de los dos sensores y espacio para evidencias",
+  "python_sintaxis": "aprobada",
+  "archivos": [
+    {
+      "ruta": ".gitignore",
+      "sha256": "302de536b145b2a6a21966c818bb0e40cf393c52be505430b65021bcdb5025d9"
+    },
+    {
+      "ruta": "camara/aplicar_filtros.py",
+      "sha256": "eeb4ef4ed9d5b7260e6ba2165140a71f103fc9148507b8479ab7026a84f71b7f"
+    },
+    {
+      "ruta": "camara/camara.launch.py",
+      "sha256": "04201c46d8f768c8e38a2737924a41330f60a367d8efc61131f66bdf2c77c8b0"
+    },
+    {
+      "ruta": "camara/camara.sh",
+      "sha256": "dd47b896e0463daac29acc604ac3c59720ee73b785e45076d71fc200b7e1440e"
+    },
+    {
+      "ruta": "camara/COMO_EMPEZAR.md",
+      "sha256": "c975fefdf8cad199542611d0d0364450cb251625c5dcb82edc073c4cfbf2259d"
+    },
+    {
+      "ruta": "camara/conectar_usb.py",
+      "sha256": "402ab83c180f5f242cd25877a7d50bb4b952cbf9c277ff0ff02a8152baf433aa"
+    },
+    {
+      "ruta": "camara/config/camara.rviz",
+      "sha256": "5f00aac513fe5b55de9e5ea2304a19093261448f9b12cf44ff57bdcf4f4475e1"
+    },
+    {
+      "ruta": "camara/config/driver.yaml",
+      "sha256": "4d480e0711b4e3713f0f7b57397fd93f457ace6eab21305b0b94f83aba0c2abc"
+    },
+    {
+      "ruta": "camara/config/filtros.yaml",
+      "sha256": "d40d2a8e616961f069e729b580e0f30891953213c47ceeccb17b8a3747447090"
+    },
+    {
+      "ruta": "camara/datos_imagen.py",
+      "sha256": "6780309538ca5e40a9159fc118aab53bbd1bd6312b051d4fcfe7e150b062420b"
+    },
+    {
+      "ruta": "camara/filtro_profundidad.py",
+      "sha256": "5e315f3b30976097de5f4d0ed778ee9ac0a57b4c36ddebe04d623c4d8b7c6cb9"
+    },
+    {
+      "ruta": "camara/laboratorio_camara.py",
+      "sha256": "a00a6ff947d887252f6914bbb97c960a94c7c480b5fadb3a53c3b24dadcde94e"
+    },
+    {
+      "ruta": "camara/preparar_camara.sh",
+      "sha256": "be0d08950ea09ca238d230c5c6803eb7de8333efc58d785a4135dd624a13b42a"
+    },
+    {
+      "ruta": "camara/registrar.py",
+      "sha256": "377b2deee50dfda0fc47bd8f55370f541fbd610027ed0d879e7ec5695097ab7f"
+    },
+    {
+      "ruta": "camara/ver_datos.py",
+      "sha256": "7aa523f10dbb8bcf002393478a7c34beaa75679650be2f890e433752c7eda09f"
+    },
+    {
+      "ruta": "camara/verificar_flujos.py",
+      "sha256": "27f82c9fe5f93ddbad527a2c8f7c6319332710b5e61105ec56d803375757e40c"
+    },
+    {
+      "ruta": "camara/verificar_registro.py",
+      "sha256": "79c72f993aa3a0692132fbefe47d7eedcfbbb1693785b77984edd506c6682b8f"
+    },
+    {
+      "ruta": "evidencias/capturas/README.md",
+      "sha256": "7f50dc477b11e5781e7ade8de0d0e1d00fb298dcb73598630a069ac2aba0ba5a"
+    },
+    {
+      "ruta": "evidencias/README.md",
+      "sha256": "5a7b78566c09324d88b8b77906e28247983462556b2da57a8f6b74e4840aa06f"
+    },
+    {
+      "ruta": "evidencias/resultados/README.md",
+      "sha256": "241b29397af0d57e3caba699555e91770655968958537d54bd8de58ea0c13502"
+    },
+    {
+      "ruta": "evidencias/videos/README.md",
+      "sha256": "ddae971eab815248febce467a0e862dac7a98c2ae07061a42d814d20c12bbe4a"
+    },
+    {
+      "ruta": "lidar/aplicar_filtros.py",
+      "sha256": "42df655aea159f3097660cb219e284fe67a6f5f783f54409696313b1a8b1fc24"
+    },
+    {
+      "ruta": "lidar/COMO_EMPEZAR.md",
+      "sha256": "5aaff8f47b62c100eb58a92f2ab191357747ec1a7155b1c29e85c231d1425ec1"
+    },
+    {
+      "ruta": "lidar/compatibilidad_firmware.py",
+      "sha256": "ed5449ad5e57fedb240017a030c97bf68a2c7b8cf6e9b5a6679c878ced0d7f93"
+    },
+    {
+      "ruta": "lidar/compatibilidad_firmware_1_15.patch",
+      "sha256": "b06ac74c814432e362eafe082f3378ab6ddc8ad8758fc42464cf82507e89cc33"
+    },
+    {
+      "ruta": "lidar/compilar_compatibilidad.sh",
+      "sha256": "28b708afb6399061aab77de13f56d7fdee72e466df896b59acfb12bb1042cea1"
+    },
+    {
+      "ruta": "lidar/conectar_usb.py",
+      "sha256": "6a0e0add4fdfc3bb1efc8e1978acc3f0d3cc623708c2ae7ffaebf938c2d6e5d0"
+    },
+    {
+      "ruta": "lidar/config/adquisicion.yaml",
+      "sha256": "960964df32227e174a5a06a7654260397a29365abbfc8fc3ec5a8037527de931"
+    },
+    {
+      "ruta": "lidar/config/filtros.yaml",
+      "sha256": "d4fe34da91f9b215903eca81765118957e411a07c60c5f9a1261ac0883bd1e73"
+    },
+    {
+      "ruta": "lidar/config/laboratorio.rviz",
+      "sha256": "7c6eef2b3e0d586e34cb962758feb25859cef6436b61434d417879088e143eca"
+    },
+    {
+      "ruta": "lidar/config/qos_grabacion.yaml",
+      "sha256": "c3683758b2f618ffd772cbcbd64aab808c9c8118c71bdc9ea1df4c3de5f571aa"
+    },
+    {
+      "ruta": "lidar/filtro_scan.py",
+      "sha256": "995e43f37d464afde7cf72536dee0af417c0368e7427264c6e9e84adbca583ab"
+    },
+    {
+      "ruta": "lidar/laboratorio.py",
+      "sha256": "e7661e424dab228cb3426d703fb8a85b611bc0c70ad7cda2393401fa5d8530b4"
+    },
+    {
+      "ruta": "lidar/laboratorio.sh",
+      "sha256": "b4996828a35fa2573c234c20476f0a47fc3316130ac5b72d04074f8f57cba196"
+    },
+    {
+      "ruta": "lidar/preparar_controlador.sh",
+      "sha256": "5af53421ededfbd72c1fc8cd466203b3eb3d99ebc5b54295b50dd619bc79a71a"
+    },
+    {
+      "ruta": "lidar/registrar.py",
+      "sha256": "6d2857a65720a3565dee2bce6255bcc366e6d3096f6f22ece877bc1367e26ff7"
+    },
+    {
+      "ruta": "lidar/ver_datos.py",
+      "sha256": "cc9ff2ef8fb42179c1a9e785509f0e342bb586db68f06eab4ebf34fb94544eda"
+    },
+    {
+      "ruta": "lidar/verificar_registro.py",
+      "sha256": "0b72fd00b17a98cbd02e076835271d5cfcc953f0c9d93fa381470f252cda1fb0"
+    },
+    {
+      "ruta": "README.md",
+      "sha256": "0abf93057f8c4bae136221297dbefb19f7b12aff9431a0b444ccb45c489de98f"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+/camera/driver:
+  ros__parameters:
+    device_id: '#1'
+    use_device_time: false
+    depth_registration: false
+    depth_mode: QVGA_30Hz
+    color_mode: QVGA_30Hz
+    ir_mode: QVGA_30Hz
+    data_skip: 0
+    depth_frame_id: camera_depth_optical_frame
+    rgb_frame_id: camera_rgb_optical_frame
+    ir_frame_id: camera_depth_optical_frame
+    z_offset_mm: 0
+    z_scaling: 1.0
+    auto_exposure: true
+    auto_white_balance: true
