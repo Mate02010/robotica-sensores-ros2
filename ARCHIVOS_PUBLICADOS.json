@@ -1,5 +1,5 @@
 {
-  "alcance": "Solo código de los dos sensores y espacio para evidencias",
+  "alcance": "Código de los dos sensores, estructura para evidencias y video físico del RPLIDAR aportado por el usuario",
   "python_sintaxis": "aprobada",
   "archivos": [
     {
@@ -76,7 +76,7 @@
     },
     {
       "ruta": "evidencias/README.md",
-      "sha256": "5a7b78566c09324d88b8b77906e28247983462556b2da57a8f6b74e4840aa06f"
+      "sha256": "017e0511c94f5aeff54e5093171ef7436dad71aa25e2eff3dbb535d2a6bceb44"
     },
     {
       "ruta": "evidencias/resultados/README.md",
@@ -84,7 +84,15 @@
     },
     {
       "ruta": "evidencias/videos/README.md",
-      "sha256": "ddae971eab815248febce467a0e862dac7a98c2ae07061a42d814d20c12bbe4a"
+      "sha256": "a490e5530f97784797703ff9e64e90d9a74b05e39cb7f4f2836b37364348da24"
+    },
+    {
+      "ruta": "evidencias/videos/RPLIDAR_prueba_fisica_2026-11-13.json",
+      "sha256": "365d042bbb5d97b8695c5497aca8eb173ee78d9893ff03ca0e3a9bbf013fe750"
+    },
+    {
+      "ruta": "evidencias/videos/RPLIDAR_prueba_fisica_2026-11-13.mp4",
+      "sha256": "c9ff87b1f76246ea3c280bc88b07e98948bfc31db0ccae322ae448405176383f"
     },
     {
       "ruta": "lidar/aplicar_filtros.py",
@@ -156,7 +164,7 @@
     },
     {
       "ruta": "README.md",
-      "sha256": "0abf93057f8c4bae136221297dbefb19f7b12aff9431a0b444ccb45c489de98f"
+      "sha256": "abdc969f2fde9b281b84078754be3341a94be536694c65af2773cbefd4933f52"
     }
   ]
 }

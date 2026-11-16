@@ -1,0 +1,16 @@
+{
+  "archivo": "RPLIDAR_prueba_fisica_2026-11-13.mp4",
+  "nombre_original": "WhatsApp Video 2026-11-13 at 1.22.16 PM.mp4",
+  "fecha_indicada_en_nombre": "2026-11-13",
+  "descripcion": "Montaje físico y conexión del RPLIDAR en el laboratorio",
+  "duracion_s": 11.175122,
+  "resolucion": [
+    474,
+    850
+  ],
+  "bytes": 2331115,
+  "sha256": "c9ff87b1f76246ea3c280bc88b07e98948bfc31db0ccae322ae448405176383f",
+  "git_blob_sha1": "853582373659e0972595acbc696eeebcd96de9cc",
+  "recodificado": false,
+  "fecha_publicacion_bogota": "2026-11-15"
+}

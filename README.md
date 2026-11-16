@@ -13,12 +13,18 @@ Los controladores externos utilizados son [sllidar_ros2 de SLAMTEC](https://gith
 
 ## Espacio para evidencias
 
-Las carpetas están preparadas para añadir los archivos posteriormente. Esta publicación inicial contiene código y estructura; no contiene el informe ni la colección de Daniel.
+Las carpetas permiten organizar los archivos de la práctica. Ya está publicado el video físico del RPLIDAR; las demás evidencias se podrán añadir posteriormente. El informe y la colección de Daniel se conservan fuera del repositorio.
 
 - [Videos](evidencias/videos/): grabaciones de RViz y pruebas de los sensores.
 - [Capturas](evidencias/capturas/): terminal, parámetros y visualización.
 - [Resultados](evidencias/resultados/): parámetros y datos registrados en ensayos.
 - [Índice de evidencias](evidencias/README.md): espacio para los enlaces de prueba.
+
+## Video de la prueba física del RPLIDAR
+
+[Ver video del RPLIDAR conectado en el laboratorio](evidencias/videos/RPLIDAR_prueba_fisica_2026-11-13.mp4) · [Abrir o descargar MP4](https://github.com/Mate02010/robotica-sensores-ros2/raw/refs/heads/main/evidencias/videos/RPLIDAR_prueba_fisica_2026-11-13.mp4).
+
+Grabación de aproximadamente 11 segundos, aportada por el usuario desde Descargas. Muestra el montaje físico y la conexión del sensor. Es una evidencia distinta de una captura de ROS/RViz o de un registro numérico de distancias.
 
 ## Preparación y ejecución
 
